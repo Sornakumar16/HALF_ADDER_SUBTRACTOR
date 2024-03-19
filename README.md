@@ -1,5 +1,6 @@
 # HALF_ADDER_SUBTRACTOR
 
+
 Implementation-of-Half-Adder-and-Half Subtractor-circuit
 
 **AIM:**
@@ -50,6 +51,8 @@ Figure -02 HALF Subtractor
 
 **Program:**
 ''''
+
+
 module half_add(a,b,sum,carry,D,Bo);
 input a,b;
 output sum,carry,D,Bo; // Outputs sum and carry for half adder:Outputs difference D,Borrow Bo for half subtractor
@@ -60,6 +63,8 @@ not(abar,a);
 xor(D,a,b);
 and(Bo,abar,b);
 endmodule
+
+
 ''''
 
 
